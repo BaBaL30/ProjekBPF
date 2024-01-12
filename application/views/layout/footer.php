@@ -1,74 +1,10 @@
+<style>
+    .footer-bg{
+        padding-top: 0;
+    }
+</style>
 <footer class="footer-section footer-bg">
     <div class="footer-wrapper">
-        <!-- Start Footer Top -->
-        <div class="footer-top">
-            <div class="container">
-                <div class="row mb-n6">
-                    <div class="col-lg-3 col-sm-6 mb-6">
-                        <!-- Start Footer Single Item -->
-                        <div class="footer-widget-single-item footer-widget-color--golden" data-aos="fade-up"
-                            data-aos-delay="0">
-                            <h5 class="title">INFORMATION</h5>
-                            <ul class="footer-nav">
-                                <li><a href="#">Delivery Information</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="contact-us.html">Contact</a></li>
-                                <li><a href="#">Returns</a></li>
-                            </ul>
-                        </div>
-                        <!-- End Footer Single Item -->
-                    </div>
-                    <div class="col-lg-3 col-sm-6 mb-6">
-                        <!-- Start Footer Single Item -->
-                        <div class="footer-widget-single-item footer-widget-color--golden" data-aos="fade-up"
-                            data-aos-delay="200">
-                            <h5 class="title">MY ACCOUNT</h5>
-                            <ul class="footer-nav">
-                                <li><a href="my-account.html">My account</a></li>
-                                <li><a href="wishlist.html">Wishlist</a></li>
-                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                <li><a href="faq.html">Frequently Questions</a></li>
-                                <li><a href="#">Order History</a></li>
-                            </ul>
-                        </div>
-                        <!-- End Footer Single Item -->
-                    </div>
-                    <div class="col-lg-3 col-sm-6 mb-6">
-                        <!-- Start Footer Single Item -->
-                        <div class="footer-widget-single-item footer-widget-color--golden" data-aos="fade-up"
-                            data-aos-delay="400">
-                            <h5 class="title">CATEGORIES</h5>
-                            <ul class="footer-nav">
-                                <li><a href="#">Decorative</a></li>
-                                <li><a href="#">Kitchen utensils</a></li>
-                                <li><a href="#">Chair & Bar stools</a></li>
-                                <li><a href="#">Sofas and Armchairs</a></li>
-                                <li><a href="#">Interior lighting</a></li>
-                            </ul>
-                        </div>
-                        <!-- End Footer Single Item -->
-                    </div>
-                    <div class="col-lg-3 col-sm-6 mb-6">
-                        <!-- Start Footer Single Item -->
-                        <div class="footer-widget-single-item footer-widget-color--golden" data-aos="fade-up"
-                            data-aos-delay="600">
-                            <h5 class="title">ABOUT US</h5>
-                            <div class="footer-about">
-                                <p>We are a team of designers and developers that create high quality Magento,
-                                    Prestashop, Opencart.</p>
-
-                                <address class="address">
-                                    <span>Address: Your address goes here.</span>
-                                    <span>Email: demo@example.com</span>
-                                </address>
-                            </div>
-                        </div>
-                        <!-- End Footer Single Item -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Footer Top -->
 
         <!-- Start Footer Center -->
         <div class="footer-center">
@@ -78,26 +14,14 @@
                         <div class="footer-social" data-aos="fade-up" data-aos-delay="0">
                             <h4 class="title">FOLLOW US</h4>
                             <ul class="footer-social-link">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.facebook.com/ainayya.butikduri.1/"><i class="fa fa-facebook"></i></a></li>                
+                                <li><a href="https://www.instagram.com/padusheshop.id/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://shopee.co.id/buyer/login?next=https%3A%2F%2Fshopee.co.id%2Frisafitriayu%3Fsmtt%3D0.0.9"><i class="fa fa-shopping-cart"></i></a></li>
+                                <li><a href="https://api.whatsapp.com/send/?phone=6282138452454&text&type=phone_number&app_absent=0"><i class="fa fa-whatsapp"></i></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-6 col-md-6 mb-6">
-                        <div class="footer-newsletter" data-aos="fade-up" data-aos-delay="200">
-                            <h4 class="title">DON'T MISS OUT ON THE LATEST</h4>
-                            <div class="form-newsletter">
-                                <form action="#" method="post">
-                                    <div class="form-fild-newsletter-single-item input-color--golden">
-                                        <input type="email" placeholder="Your email address..." required>
-                                        <button type="submit">SUBSCRIBE!</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -106,24 +30,7 @@
         <!-- Start Footer Bottom -->
         <div class="footer-bottom">
             <div class="container">
-                <div
-                    class="row justify-content-between align-items-center align-items-center flex-column flex-md-row mb-n6">
-                    <div class="col-auto mb-6">
-                        <div class="footer-copyright">
-                            <p class="copyright-text">&copy; 2021 <a href="index.html">therankme</a>. Made with <i
-                                    class="fa fa-heart text-danger"></i> by <a href="https://therankme.com/"
-                                    target="_blank">therankme</a> </p>
-
-                        </div>
-                    </div>
-                    <div class="col-auto mb-6">
-                        <div class="footer-payment">
-                            <div class="image">
-                                <img src="<?= base_url('assets/') ?>images/company-logo/payment.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
         <!-- Start Footer Bottom -->
@@ -191,7 +98,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form action="<?= base_url('Admin/upload'); ?>" class="row g-3" method="POST" enctype="multipart/form-data">
+                <form action="<?= base_url('admin/upload'); ?>" class="row g-3" method="POST"
+                    enctype="multipart/form-data">
                     <div class="col-12">
                         <label for="Nama" class="form-label">Nama Barang</label>
                         <input type="text" name="nama_barang" class="form-control" id="nama_barang"
@@ -240,43 +148,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form action="<?= base_url('Admin/update'); ?>" class="row g-3" method="POST">
-                    <input type="hidden" name="id_catalog" value="<?= $admin['id_catalog']; ?>" >
-                    <div class="col-12">
-                        <label for="Nama" class="form-label">Nama Barang</label>
-                        <input type="text" name="nama_barang" value="<?= $admin['nama_barang']; ?>" class="form-control" id="nama_barang"
-                            placeholder="Nama Barang">
-                    </div>
-                    <div class="col-12">
-                        <label for="Harga" class="form-label">Harga</label>
-                        <input type="number" name="harga_barang" value="<?= $admin['harga_barang']; ?>" class="form-control" id="harga_barang"
-                            placeholder="Harga">
-                    </div>
-                    <div class="col-12">
-                        <label for="Stok" class="form-label">Stok</label>
-                        <input type="number" name="stok_barang" value="<?= $admin['stok_barang']; ?>" class="form-control" id="stok_barang"
-                            placeholder="Stok">
-                    </div>
-                    <div class="col-12">
-                        <label for="Deskripsi" class="form-label">Deskripsi</label>
-                        <input type="text" name="deskripsi_barang" value="<?= $admin['deskripsi_barang']; ?>" class="form-control" id="deskripsi_barang"
-                            placeholder="Deskripsi">
-                    </div>
-                    <div class="col-12">
-                        <label for="Ukuran" class="form-label">Ukuran</label>
-                        <input type="text" name="ukuran_barang" value="<?= $admin['ukuran_barang']; ?>" class="form-control" id="ukuran_barang"
-                            placeholder="Ukuran">
-                    </div>
-                    <div class="col-12">
-                        <label for="Gambar" class="form-label">Gambar</label>
-                        <input type="file" name="gambar_barang" value="<?= $admin['gambar_barang']; ?>" class="form-control" id="gambar_barang"
-                            placeholder="Gambar">
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                </form>
+                
             </div>
         </div>
     </div>

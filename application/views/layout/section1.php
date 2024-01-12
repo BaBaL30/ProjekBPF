@@ -8,7 +8,7 @@
             <div class="hero-single-slider-item swiper-slide">
                 <!-- Hero Slider Image -->
                 <div class="hero-slider-bg">
-                    <img src="<?= base_url('assets/') ?>images/bpf/gambar1.jpg" alt="">
+                    <img src="<?= base_url('assets/')?>images/bpf/gambar1.jpg" alt="">
                 </div>
                 <!-- Hero Slider Content -->
                 <div class="hero-slider-wrapper">
@@ -17,8 +17,8 @@
                             <div class="col-auto">
                                 <div class="hero-slider-content">
                                     <h4 class="subtitle">New collection</h4>
-                                    <h2 class="title">Best Of NeoCon <br> Gold Award </h2>
-                                    <a href="product-details-default.html" class="btn btn-lg btn-outline-golden">shop
+                                    <h2 class="title">The <br> Most Selling </h2>
+                                    <a href="<?= base_url('shop/')?>"" class="btn btn-lg btn-outline-golden">shop
                                         now </a>
                                 </div>
                             </div>
@@ -30,7 +30,7 @@
             <div class="hero-single-slider-item swiper-slide">
                 <!-- Hero Slider Image -->
                 <div class="hero-slider-bg">
-                    <img src="<?= base_url('assets/') ?>images/hero-slider/home-1/hero-slider-2.jpg" alt="">
+                    <img src="<?= base_url('assets/')?>images/bpf/gambar2.jpg" alt="">
                 </div>
                 <!-- Hero Slider Content -->
                 <div class="hero-slider-wrapper">
@@ -39,8 +39,8 @@
                             <div class="col-auto">
                                 <div class="hero-slider-content">
                                     <h4 class="subtitle">New collection</h4>
-                                    <h2 class="title">Luxy Chairs <br> Design Award </h2>
-                                    <a href="product-details-default.html" class="btn btn-lg btn-outline-golden">shop
+                                    <h2 class="title">The <br> Most Favorite </h2>
+                                    <a href="<?= base_url('shop/')?>" class="btn btn-lg btn-outline-golden">shop
                                         now </a>
                                 </div>
                             </div>

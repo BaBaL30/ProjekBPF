@@ -38,6 +38,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
+        ul {
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
         /* Tautan tanpa garis bawah */
         a {
             text-decoration: none;
@@ -56,8 +61,8 @@
                             <!-- Start Header Logo -->
                             <div class="header-logo">
                                 <div class="logo">
-                                    <a href="index.html"><img src="<?= base_url('assets/') ?>images/bpf/logo.png"
-                                            alt=""></a>
+                                    <a href="<?= base_url('Catalog/') ?>"><img
+                                            src="<?= base_url('assets/') ?>images/bpf/logo.png" alt=""></a>
                                 </div>
                             </div>
                             <!-- End Header Logo -->
@@ -67,11 +72,10 @@
                                 <nav>
                                     <ul>
                                         <li class="has-dropdown">
-                                            <a class="active main-menu-link" href="<?= base_url() ?>Catalog">Home <i
-                                                    class="fa fa-angle-down"></i></a>
+                                            <a class="active main-menu-link" href="<?= base_url() ?>Catalog">Home </a>
                                         </li>
                                         <li class="has-dropdown has-megaitem">
-                                            <a href="<?= base_url() ?>shop">Shop <i class="fa fa-angle-down"></i></a>
+                                            <a href="<?= base_url() ?>shop">Shop </a>
 
                                         </li>
                                         <li>
@@ -86,27 +90,23 @@
                             <!-- End Header Main Menu Start -->
 
                             <!-- Start Header Action Link -->
-                            <ul class=" header-action-link action-color--black action-hover-color--golden">
+                                    <ul class=" header-action-link action-color--black action-hover-color--golden">
                                         <li>
-                                            <a href="#offcanvas-wishlish" class="offcanvas-toggle">
-                                                <i class="icon-heart"></i>
-                                                <span class="item-count">3</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#offcanvas-add-cart" class="offcanvas-toggle">
+                                            <a href="<?= base_url('cart/') ?>">
                                                 <i class="icon-bag"></i>
-                                                <span class="item-count">3</span>
+                                                <span class="item-count">
+                                                    <?php $i = 0; ?>
+                                                    <?php foreach ($cart as $us): ?>
+
+                                                        <?php $i++; ?>
+                                                    <?php endforeach; ?>
+                                                    <?= $i ?>
+                                                </span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#search">
-                                                <i class="icon-magnifier"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#offcanvas-about" class="offacnvas offside-about offcanvas-toggle">
-                                                <i class="icon-menu"></i>
+                                            <a href="<?= base_url('Auth/'); ?>">
+                                                <i class="icon-user"></i>
                                             </a>
                                         </li>
                                     </ul>

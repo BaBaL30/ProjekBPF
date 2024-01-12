@@ -7,11 +7,13 @@ class Admin extends CI_Controller
     {
         parent::__construct();
         $this->load->model('Catalog_Model');
+        $this->load->model('Cart_Model');
     }
     public function index()
     {
         $data['judul'] = "Admin";
-        $data['Admin'] = $this->Catalog_Model->get();
+        $data['catalog'] = $this->Catalog_Model->get();
+		$data['cart'] = $this->Cart_Model->get();
         $this->load->view('layout/header', $data);
         $this->load->view('layout/section2', $data);
         $this->load->view('Admin/tambah', $data);
@@ -53,12 +55,12 @@ class Admin extends CI_Controller
     }
     public function edit($id)
     {
-        $data['judul'] = "Admin";
-        $data['Admin'] = $this->Catalog_Model->getById($id);
+        $data['judul'] = "Edit";
+        $data['catalog'] = $this->Catalog_Model->getById($id);
+		$data['cart'] = $this->Cart_Model->get();
         $this->load->view('layout/header', $data);
         $this->load->view('layout/section2', $data);
-        $this->load->view('Admin/tambah', $data);
-        $this->load->view('Admin/catalog', $data);
+        $this->load->view('Admin/edit', $data);
         $this->load->view('layout/footer', $data);
     }
     function update()
@@ -74,5 +76,10 @@ class Admin extends CI_Controller
         $id = $this->input->post('id_catalog');
         $this->Catalog_Model->update(['id_catalog' => $id], $data);
         redirect('Admin');
+    }
+    public function hapus($id)
+    {
+        $this->Catalog_Model->delete($id);
+        redirect('admin');
     }
 }
